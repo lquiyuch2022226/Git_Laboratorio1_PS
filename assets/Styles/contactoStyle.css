@@ -2,17 +2,17 @@
 
 *{
     font-family: 'Montserrat', sans-serif;
+    margin: 0;
 }
 
 body{
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     margin: 0;
 }
 
 header{
     width: 100vw;
-    width: 100%;
 }
 
 .cabeza_contenedor{
@@ -26,13 +26,64 @@ header{
 }
 
 .cabeza_contenedor img{
-    width: auto;
-    height: 60px;
-    padding: 30px;
+    width: 5vw;
+    padding: 1vw;
 }
 
 .cabeza_contenedor input{
     width: 40%;
-    margin: 75px;
+    margin: 5vw;
     padding: 10px;
 }
+
+section{
+    display: flex;
+    margin-top: 7vw;
+    width: 100vw;
+    justify-content: center;
+}
+
+.contacto_contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 60%;
+    height: 25vh;
+    overflow: hidden;
+}
+
+.contacto_info{
+    margin: 2vw;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+section img{
+    width: 20vw;
+    max-height: 90px;
+    padding-left: 10px;
+}
+
+.contacto_contenedor button{
+    /*background-color: transparent;
+    border: none;*/
+}
+
+.botones_contacto img{
+    width: 5vw;
+    max-height: 20px;
+}
+
+footer{
+    margin-top: 50px;
+    height: 80px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+}
+
