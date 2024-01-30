@@ -11,12 +11,16 @@ body{
     margin: 0;
 }
 
+/* header*/
+
 header{
     width: 100vw;
 }
 
 .cabeza_contenedor{
     display: flex;
+    background-color: black;
+    color:white;
     width: 100vw;
     height: 100px;
     min-height: 100px;
@@ -35,6 +39,54 @@ header{
     margin: 5vw;
     padding: 10px;
 }
+
+/* menu */
+.boton_cerrar{
+    border: 0;
+    background-color: white;
+    cursor: pointer;
+}
+
+.nav{
+    opacity: 0;
+    visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 1rem;
+    position: absolute;
+    max-width: 550px;
+    top: 0;
+    right: 0;
+    background-color: black;
+    bottom: 0;
+    position: fixed;
+    padding: 2rem;
+    box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .5);
+}
+
+.nav.visible{
+    opacity: 1;
+    visibility: visible;
+}
+
+.nav_lista{
+    text-align: right;
+}
+
+.nav_lista li a{
+    display: block; 
+    padding: 15px 0;
+    text-decoration: none;
+    color: white;
+}
+
+.nav_lista li a:hover{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+/* cuerpo */
 
 section{
     display: flex;

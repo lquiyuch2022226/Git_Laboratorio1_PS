@@ -14,8 +14,18 @@
             <img src="../Resources/img/icono_header.png">
             <h2>Contactos</h2>
             <input type="text" placeholder="Buscar">
-            <img src="../Resources/img/menu.svg">
+            <a href="#"><img src="../Resources/img/menu.svg" id="abrir"></a>
         </div>
+
+        <nav class="nav" id="nav">
+            <ul class="nav_lista">
+                <button id="cerrar" class="boton_cerrar"><img src="../Resources/img/cerrar.svg"></button>
+                <li><a href="../Paginas/nuevoContacto.html">Nuevo Contacto</a></li>
+                <li><a href="../Paginas/favoritos.html">Favoritos</a></li>
+                <li><a href="../Paginas/perfil.html">Perfil</a></li>
+                <li><a href="../Paginas/toDoList.html">ToDo List</a></li>
+            </ul>
+        </nav>
     </header>
 
     <section class="contacto_1">
@@ -93,6 +103,7 @@
             <p>Contactos<p>
         </div>
     </footer>
-</body>
 
+    <script src="../Scripts/contactoLogica.js"></script>
+</body>
 </html>
