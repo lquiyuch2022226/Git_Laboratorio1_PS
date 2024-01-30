@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    background-image: url(../Resources/img/fondo_pantalla.jpg);
+    background-color: rgba(0, 0, 0, 0.2);
+    background-blend-mode: overlay;  
+    display: flex;
+    align-items: center;
+}
+
+.centrado_login{
+    
+    width: 100%;
+}
+
+.login_contenedor{
+    padding: 50px;
+    min-width: 25%;
+    max-width: 40vh;
+    text-align: left;
+    margin: auto;
+    color: white;
+    background-color: black;
+}
+
+.login_contenedor input{
+    width: 100%;
+    color: white;
+    margin: 10px 0; 
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid white; 
+    font-size: 17px;
+}
+
+.login_contenedor input::placeholder {
+    color: rgb(168, 158, 158);
+}
+
+.login_contenedor button{
+    font-size: 15px;
+    width: 100%;
+    height: 35px;
+    background: linear-gradient(90deg, rgba(105,133,173,1) 0%, rgba(214,131,80,1) 50%, rgba(33,33,124,1) 100%);
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+
+.login_contenedor button:hover{
+    font-weight: bolder;
+}
+
+.logos_login{
+    display: flex;
+}
+
+.logos_login img{
+    padding-right: 5px;
+}
