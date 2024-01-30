@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+}
+
+.cabeza_contenedor{
+    display: flex;
+    background-color: black;
+    color:white;
+    width: 100vw;
+    height: 100px;
+    min-height: 100px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    justify-content: left;
+    align-items: center;
+}
+
+.cabeza_contenedor img{
+    width: 5vw;
+    padding: 1vw;
+}
+/* Favoritos */
+
+section{
+    display: flex;
+    margin-top: 7vw;
+    width: 100vw;
+    justify-content: center;
+}
+
+.contacto_contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 60%;
+    height: 25vh;
+    overflow: hidden;
+}
+
+.contacto_info{
+    margin: 2vw;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+section img{
+    width: 20vw;
+    max-height: 90px;
+    padding-left: 10px;
+}
+
+.contacto_contenedor button{
+    margin: 5px;
+    background-color: transparent;
+    border: none;
+}
+
+.botones_contacto img{
+    width: 5vw;
+    max-height: 20px;
+}
