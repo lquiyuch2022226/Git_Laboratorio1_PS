@@ -8,15 +8,46 @@ body{
     width: 100%;
     height: 100vh;
     margin: 0;
+    background-image: url(../Resources/img/fondo_pantalla.jpg);
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;  
+    display: flex;
+    align-items: center;
+}
+
+.centrado_login{
+    
+    width: 100%;
 }
 
 .login_contenedor{
-    height: 100%;
+    padding: 50px;
     min-width: 25%;
-    max-width: 50vh;
-    background-color: blue;
-    text-align: center;
-    padding: 15px;
+    max-width: 40vh;
+    text-align: left;
     margin: auto;
-    margin-top: 25vh;
+    color: white;
+    background-color: black;
 }
+
+.login_contenedor input{
+    width: 100%;
+    color: white;
+    margin: 10px 0; 
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid white; 
+    font-size: 17px;
+}
+
+.login_contenedor input::placeholder {
+    color: white;
+}
+
+.login_contenedor button{
+    font-size: 15px;
+    width: 100%;
+    height: 35px;
+}
+
