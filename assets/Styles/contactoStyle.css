@@ -120,8 +120,9 @@ section img{
 }
 
 .contacto_contenedor button{
-    /*background-color: transparent;
-    border: none;*/
+    margin: 5px;
+    background-color: transparent;
+    border: none;
 }
 
 .botones_contacto img{

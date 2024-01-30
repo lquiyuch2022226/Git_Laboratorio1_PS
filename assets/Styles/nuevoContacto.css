@@ -40,7 +40,12 @@ header{
 .input_centrar input{
     width: 25vw;
     padding: 5px;
-    margin: 5px;
+    margin: 10px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black; 
+    font-size: 15px;
 }
 
 .boton button{
@@ -51,7 +56,15 @@ header{
     align-items: center;
     background-color: black;
     color: white;
+    border: none;
+    font-size: 15px;
 }
+
+.boton button:hover{
+    background-color: rgb(43, 41, 41);
+    font-weight: bolder;
+}
+
 .boton{
     margin-top: 10px;
     display: flex;
