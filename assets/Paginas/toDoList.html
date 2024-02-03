@@ -20,7 +20,7 @@
     <section class="menu">
         <div>
             <div class="boton_contenedor">
-                <button class="boton">
+                <button class="boton" id="nuevo">
                     <img src="../Resources/img/new.svg">
                     <p>Nuevo Pendiente</p>
                 </button>
@@ -40,8 +40,26 @@
         </div>
     </section>
 
-    <section>
-        
+    <section class="tablero">
+        <form class="nuevo">
+            <input type="text" placeholder="Título" required>
+            <textarea id="descripcion" name="descripcion" rows="5" cols="60"></textarea required>
+            <input type="time" id="hora" name="hora" required>
+            <select id="prioridad" required>
+                <option value="Importante">Alta Prioridad</option>
+                <option value="Media Prioridad">Media Prioridad</option>
+                <option value="Baja Prioridad">Baja Prioridad</option>
+            </select>
+            <button>Crear Pendiente</button>
+        </form>
+
+
+
+
+
+        <div class="mostrar">
+
+        </div>
     </section>
 
 </body>
