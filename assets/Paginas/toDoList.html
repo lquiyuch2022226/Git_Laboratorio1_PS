@@ -20,9 +20,15 @@
     <section class="menu">
         <div>
             <div class="boton_contenedor">
-                <button class="boton" id="nuevo">
+                <button class="boton" id="agregar">
                     <img src="../Resources/img/new.svg">
                     <p>Nuevo Pendiente</p>
+                </button>
+            </div>
+            <div class="boton_contenedor">
+                <button class="boton">
+                    <img src="../Resources/img/pendientes.svg">
+                    <p>Ver pendientes</p>
                 </button>
             </div>
             <div class="boton_contenedor">
@@ -42,26 +48,30 @@
 
     <section class="tablero">
         <form class="nuevo">
-            <input type="text" placeholder="Título" required>
+            <input id="titulo" type="text" placeholder="Título" required>
             <textarea id="descripcion" name="descripcion" rows="5" cols="60"></textarea required>
-            <input type="time" id="hora" name="hora" required>
+            <input id="hora" type="time" name="hora" required>
             <select id="prioridad" required>
                 <option value="Importante">Alta Prioridad</option>
                 <option value="Media Prioridad">Media Prioridad</option>
                 <option value="Baja Prioridad">Baja Prioridad</option>
             </select>
-            <button>Crear Pendiente</button>
+            <button id="nuevo">Crear Pendiente</button>
         </form>
 
-
-
-
-
-        <div class="mostrar">
-
+        <div>
+            <form class="mostrar">
+                <input type="text" placeholder="Título" required readonly>
+                <textarea id="descripcion" name="descripcion" rows="5" cols="60"></textarea required readonly>
+                <input type="time" id="hour" name="hora" required readonly>
+                <select id="tipo_prioridad" required readonly>
+                    <option value="Importante">Alta Prioridad</option>
+                    <option value="Media Prioridad">Media Prioridad</option>
+                    <option value="Baja Prioridad">Baja Prioridad</option>
+                </select>
+            </form>
         </div>
     </section>
-
+    <script src="../Scripts/toDoLogica.js"></script>
 </body>
-
 </html>

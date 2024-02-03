@@ -120,3 +120,7 @@ header{
     padding: 10px;
     font-size: 18px;
 }
+
+.mostrar{
+    display: none;
+}
